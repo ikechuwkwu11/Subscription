@@ -48,32 +48,32 @@ This is a simple Flask-based REST API for managing user accounts, subscription p
 
 ## 📬 Example Postman Body
 ✅ Register
-{
-  "email": "test@example.com",
-  "password": "mypassword"
-}
+- {
+    "email": "test@example.com",
+    "password": "mypassword"
+  }
 
 ✅ Login
-{
-  "email": "test@example.com",
-  "password": "mypassword"
-}
+-  {
+    "email": "test@example.com",
+    "password": "mypassword"
+  }
 
 ✅ Create Plan
-{
-  "name": "Pro Plan",
-  "price": 49.99,
-  "billing_cycle": "monthly",
-  "api_call_limit": 10000,
-  "storage_limit_mb": 500
-}
+-  {
+    "name": "Pro Plan",
+    "price": 49.99,
+    "billing_cycle": "monthly",
+    "api_call_limit": 10000,
+    "storage_limit_mb": 500
+  }
 
 ✅ Create Subscription
-{
-  "user_id": 1,
-  "plan_id": 1,
-  "start_date": "2025-07-01T12:00:00",
-  "end_date": "2025-08-01T12:00:00",
-  "is_active": true
-}
+-  {
+    "user_id": 1,
+    "plan_id": 1,
+    "start_date": "2025-07-01T12:00:00",
+    "end_date": "2025-08-01T12:00:00",
+    "is_active": true
+  }
 
