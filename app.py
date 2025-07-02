@@ -6,7 +6,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///subscription.db'
-app.config['SECRET_KEY'] = 'iyke'
+app.config['SECRET_KEY'] = ''
 db.init_app(app)
 
 login_manager = LoginManager(app)
